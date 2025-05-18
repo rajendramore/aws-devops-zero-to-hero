@@ -2,6 +2,6 @@
 set -e
 
 # Stop the running container (if any)
-#containerid=`docker ps |awk -F " " '{print $1}'`
-docker stop python-flask
-docker rm -f python-flask
+
+sudo docker stop python-flask
+sudo docker rm -f python-flask
